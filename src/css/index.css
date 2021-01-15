@@ -4,8 +4,6 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     font-family: ubuntu;
     background-color: #222222;
     color: white;
@@ -61,7 +59,7 @@ a {
     padding: 5;
 }
 
-#text {
+#unencrypted-text {
     grid-area: text;
     padding: 5;
 }
@@ -71,32 +69,25 @@ a {
     padding: 5;
 }
 
-#button-encrypt {
-    grid-area: button-encrypt;
+.button {
     background-color: white;
     padding: 25;
     color: black;
     border-radius: 2px;
     font-size: 16px;
     border: 2px solid gray;
-
 }
 
-#button-encrypt:hover {
+.button:hover {
     background-color: gray;
 }
 
-#button-decrypt {
-    grid-area: button-decrypt;
-    padding: 25;
-    background-color: white;
-    color: black;
-    border-radius: 2px;
-    font-size: 16px;
-    border: 2px solid gray;
-
+#button-encrypt {
+    grid-area: button-encrypt;
 }
 
-#button-decrypt:hover {
-    background-color:  gray;
+
+#button-decrypt {
+    grid-area: button-decrypt;
+
 }

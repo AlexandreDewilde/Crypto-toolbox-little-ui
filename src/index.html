@@ -23,10 +23,10 @@
         <section class="rsa">
             <textarea id="rsa-pub-key" rows="5" placeholder="-----BEGIN PUBLIC KEY----- -----END PUBLIC KEY-----"></textarea>
             <textarea id="rsa-private-key" rows="5" placeholder="----BEGIN RSA PRIVATE KEY----- -----END RSA PRIVATE KEY-----"></textarea>
-            <textarea id="text" rows="10" placeholder="Text to encrypt"></textarea>
+            <textarea id="unencrypted-text" rows="10" placeholder="Text to encrypt"></textarea>
             <textarea id="encrypted-text" rows="10" placeholder="Encrypted text to decrypt"></textarea>
-            <input type="submit" id="button-encrypt" value="Encrypt with public key">
-            <input type="submit" id="button-decrypt" value="Decrypt with private key">
+            <input type="submit" class="button" id="button-encrypt" value="Encrypt with public key">
+            <input type="submit" class="button" id="button-decrypt" value="Decrypt with private key">
         </section>
     </main>
 </body>
