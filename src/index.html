@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>RSA ui app</title>
+</head>
+<body>
+    <header>
+        <ul id="navbar">
+            <li>
+                RSA UI app
+            </li>
+            <li>
+                <a href="./index.html">Menu</a>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="rsa">
+            <textarea id="rsa-pub-key" rows="5" placeholder="-----BEGIN PUBLIC KEY----- -----END PUBLIC KEY-----"></textarea>
+            <textarea id="rsa-private-key" rows="5" placeholder="----BEGIN RSA PRIVATE KEY----- -----END RSA PRIVATE KEY-----"></textarea>
+            <textarea id="text" rows="10" placeholder="Text to encrypt"></textarea>
+            <textarea id="encrypted-text" rows="10" placeholder="Encrypted text to decrypt"></textarea>
+            <input type="submit" id="button-encrypt" value="Encrypt with public key">
+            <input type="submit" id="button-decrypt" value="Decrypt with private key">
+        </section>
+    </main>
+</body>
+<script src="./lib/jsencrypt.min.js"></script>
+<script src="./js/index.js"></script>
+</html>

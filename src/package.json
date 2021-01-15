@@ -1,0 +1,18 @@
+{
+  "name": "rsa-little-ui",
+  "version": "1.0.0",
+  "description": "A little interface for RSA encryption/decryption",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Alexandre Dewilde",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.0"
+  }
+}
