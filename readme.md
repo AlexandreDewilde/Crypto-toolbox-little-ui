@@ -8,6 +8,15 @@ This is a little UI made with electron js in html, css and js  and this [library
 ## Run
 Go in the `/src` folder and in a terminal run
 
+To install the dependecies :
+
+
+```
+bower install
+```
+
+To run the project
+
 ```
 npm start
 ```

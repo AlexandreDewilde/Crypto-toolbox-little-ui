@@ -2,14 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>RSA ui app</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/rsa.css">
+    <title>RSA</title>
 </head>
 <body>
     <header>
         <ul id="navbar">
             <li>
-                RSA UI app
+                <a href="./index.html">Crypto Toolbox</a>
             </li>
             <li>
                 <a href="./index.html">Menu</a>
@@ -27,9 +28,9 @@
             <textarea id="encrypted-text" rows="10" placeholder="Encrypted text to decrypt"></textarea>
             <input type="submit" class="button" id="button-encrypt" value="Encrypt with public key">
             <input type="submit" class="button" id="button-decrypt" value="Decrypt with private key">
-        </section>
+        </section> 
     </main>
 </body>
-<script src="./lib/jsencrypt.min.js"></script>
-<script src="./js/index.js"></script>
+<script src="../js/lib/jsencrypt.min.js"></script>
+<script src="../js/rsa.js"></script>
 </html>

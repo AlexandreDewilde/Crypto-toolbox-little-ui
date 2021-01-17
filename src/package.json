@@ -1,18 +1,17 @@
 {
-  "name": "rsa-little-ui",
-  "version": "1.0.0",
-  "description": "A little interface for RSA encryption/decryption",
+  "name": "crypto-toolbox",
+  "version": "2.0.0",
+  "description": "A little interface for crypto tools",
   "main": "main.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "postinstall": "bower install --config.interactive=false"
   },
   "keywords": [],
   "author": "Alexandre Dewilde",
   "license": "MIT",
   "devDependencies": {
+    "bower": "^1.7.9",
     "electron": "^11.2.0"
   }
 }

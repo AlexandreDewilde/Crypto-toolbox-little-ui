@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secret-key {
+    width: 15vw;
+}
+
+#textareas-container-aes {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+    width: 100%;
+}
+

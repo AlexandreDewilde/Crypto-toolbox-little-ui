@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/aes.css">
+    <title>AES</title>
+</head>
+<body>
+    <header>
+        <ul id="navbar">
+            <li>
+                <a href="./index.html">Crypto Toolbox</a>
+            </li>
+            <li>
+                <a href="./index.html">Menu</a>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="presentation-container">
+            AES
+        </section>
+        <label for="secret-key">Your secret key : </label>
+        <input type="password" name="secret-key" id="secret-key" placeholder="My very secret key">
+        <div id="textareas-container-aes">
+            <textarea name="text-to-encrypt" id="text-to-encrypt" cols="40" rows="10" placeholder="My text to encrypt"></textarea>
+            <textarea name="text-to-decrypt" id="text-to-decrypt" cols="40" rows="10" placeholder="My text that I want to decrypt"></textarea>
+        </div>
+    </main>
+</body>
+<script src="../bower_components/crypto-js/crypto-js.js"></script>
+<script src="../js/aes.js"></script>
+</html>

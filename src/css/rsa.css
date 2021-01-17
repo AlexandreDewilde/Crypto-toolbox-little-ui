@@ -1,0 +1,41 @@
+.rsa {
+    margin: 25px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template:
+        "rsa-pub-key rsa-private-key"
+        "text text"
+        "encrypted-text encrypted-text"
+        "button-encrypt button-decrypt";
+}
+
+#rsa-pub-key {
+    grid-area: rsa-pub-key;
+    padding: 5;
+}
+
+#rsa-private-key {
+    grid-area: rsa-private-key;
+    padding: 5;
+}
+
+#unencrypted-text {
+    grid-area: text;
+    padding: 5;
+}
+
+#encrypted-text {
+    grid-area: encrypted-text;
+    padding: 5;
+}
+
+#button-encrypt {
+    grid-area: button-encrypt;
+}
+
+
+#button-decrypt {
+    grid-area: button-decrypt;
+
+}

@@ -1,0 +1,21 @@
+{
+  "name": "crypto-toolbox",
+  "description": "A little interface for crypto tools",
+  "main": "main.js",
+  "authors": [
+    "Alexandre Dewilde"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/allEyezOnCode/Little-RSA-ui",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
