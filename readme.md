@@ -1,6 +1,6 @@
-# RSA little UI
+# Crypto Tools little UI
 
-This is a little UI made with electron js in html, css and js  and this [library](https://github.com/travist/jsencrypt) to encrypt/decrypt message with rsa
+This is a little UI made with electron js in html, css and js  and this [library](https://github.com/travist/jsencrypt), it's a toolbox of cryptographic algorithms
 
 <img src="https://raw.githubusercontent.com/allEyezOnCode/Little-RSA-ui/master/images/screenshot.png" alt="screenshot of rsa little ui">
 
