@@ -1,4 +1,4 @@
-# Crypto Tools little UI
+# Crypto Toolbox little UI
 
 This is a little UI made with electron js in html, css and js  and this [library](https://github.com/travist/jsencrypt), it's a toolbox of cryptographic algorithms
 
